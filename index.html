@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+			<title>IEEE SECURITY &amp; PRIVACY ON THE BLOCKCHAIN (IEEE S&amp;B)</title>
+			<meta name="viewport" content="width=device-width,initial-scale=1.0">
+				<style type="text/css" media="screen">
+					html {background: black; padding: 1em}
+					body {background: white; color: #333; border-radius: 0.6em; padding: 1em 3em;
+					font: 1.1em/1.3 Helvetica, Arial, Verdana, sans-serif; margin: 0 auto;
+					max-width: 65em; hyphens: none;}
+					h1 {color: #005A9C}
+					h3 {color: #005A9C}
+					.graphic {height: 13em; position: relative; overflow: hidden; margin: 0 -1.5em}
+					.graphic img {width: 100%; position: absolute; bottom: 0; left: 0; height: 100%}
+					/* If you rather clip than squeeze the image, remove 'height: 100%' */
+					.box {float: right; border: 1px solid #CCC; border-radius: 0.6em; color: #666;
+					box-shadow: 0.2em 0.4em 0.5em #888; padding: 0.3em; text-align: center;
+					font-size: smaller; margin: 0 0 1em 0.6em; width: 19em; clear: right}
+					.box h2 {font-size: 120%}
+					footer {clear: both; margin: 1em 0; font-size: smaller; color: #555}
+					.menu {margin: 0 0 2em 0; display: table; table-layout: fixed; width: 100%;
+					border-collapse: collapse; background:#005A9C; border: hidden;
+					font-size: smaller; font-weight: bold}
+					.menu li {display: table-cell; border: 1px solid white; border-top: none;
+					padding: 0.3em 0.2em; text-align:center; vertical-align: middle}
+					.menu a {display: block; color:#eee; text-decoration: none}
+					.menu a:hover {background:#a2b3a1; color: black}
+					ul {margin-left: 0; padding-left: 1em; list-style: square}
+					blockquote {margin-left: 1em}
+					dd {margin: 0 0 0.6em 0}
+					dt {font-weight: bold}
+					img {max-width: 100%}
+					h1, h2, h3, h4 {break-after: avoid}
+
+					address { line-height: 0.25em;}
+
+					@media all and (max-width: 40em) {
+
+					/* The right-floating boxes become normal blocks */
+					body {padding: 1em}
+					.graphic {height: 10em; margin: 0}
+					.box {float: none; width: auto}
+
+					/* The horizontal menu becomes vertical */
+					.menu ul {display: block; margin: 0; padding: 0}
+					.menu li {display: block; border-style: none none solid none}
+
+					}
+
+
+					@page {margin: 2cm 2cm}
+
+					@media print {
+
+					html {background: none; padding: 0}
+					body {background: none; border-radius: 0; padding: 0}
+
+					}
+
+					a {
+					color: #005A9C;
+					}
+
+
+					/* initialize footnote counters */
+					body {
+					counter-reset: footnote_counter footnote-ref_counter;
+					}
+
+					h2.footnote {
+					counter-increment: footnote_counter;
+					}
+
+					a.footnote-ref {
+					counter-increment: footnote-ref_counter;
+					text-decoration: none;
+					}
+
+					h2.footnote:before {
+					content: counter(footnote_counter);
+					font-size: 0.9em;
+					margin-left: -3em;
+					margin-right: 1em;
+					}
+
+					a.footnote-ref:after {
+					content: counter(footnote-ref_counter);
+					vertical-align: super;
+					font-size: 0.6em;
+					margin-left: 0.25em;
+					}
+
+					h2.footnote:before, a.footnote-ref:after {
+					padding: 0.1em 0.5em 0.1em 0.5em;
+					border-radius: 1em;
+					color: white;
+					background-color: #005A9C;
+					font-weight: bold;
+					}
+
+					table.schedule  {
+					border-collapse: separate;
+					border-spacing: 3px;
+					}
+
+					th {
+					white-space: nowrap;
+					vertical-align: top;
+					color: white;
+					background-color: #005A9C;
+					border-radius: 5px 0 0 5px;
+					padding: 3px 6px 3px 6px;
+					margin-bottom: 5px;
+					}
+
+					td {
+					border-color: #005A9C;
+					border-radius: 0 5px 5px 0;
+					}
+
+					article.sponsors {
+					border: 1px solid #333;
+					padding: 0.1em;
+					}
+
+					#notification {
+					border: 1px solid #CCC;
+					border-radius: 0.6em;
+					color: #666;
+					background-color: yellow;
+					box-shadow: 0.2em 0.4em 0.5em #888;
+					padding: 0.3em;
+					text-align: center;
+					font-size: smaller;
+					margin: 0 0 1em 0em;
+					font-weight: bold;
+					}
+
+					.concluded {
+					text-decoration: line-through;
+					}
+				</style>
+			</head>
+			<body>
+				<!--<p><a href="http://www.w3.org/"><img alt="W3C" src="http://w3.org/Icons/w3c_home"
+					height="48" width="72"></a> </p>-->
+				<h1 id="top">IEEE SECURITY &amp; PRIVACY ON THE BLOCKCHAIN (IEEE S&amp;B)</h1>
+				<h2>An IEEE European Symposium on Security &amp; Privacy Affiliated Workshop</h2>
+				<p>June 16-18, 2020 in Genova, Italy
+					<!-- <p class=graphic><a href="Overview"><img src="lib/imghead2.jpg" alt="Home"></a></p> -->
+				</p>
+				<ul class="menu">
+					<li><a href="index.html/#top">Home</a>
+					</li><li><a href="index.html#schedule">Schedule</a>
+					</li><li><a href="index.html#location">Location</a></li>
+					<li><a href="index.html#cfp">Call for Papers</a> </li>
+					<li><a href="index.html#program">Program Committee</a></li>
+				</ul>
+				<aside class="box" id="dates">
+					<h2 class="footnote">Important Dates</h2>
+					<dl>
+						<dt class="">TBA (no extension)</dt>
+						<dt class="">23:59 AOE</dt>
+						<dd>Deadline for submission of research papers</dd>
+						<dt class="">TBA</dt>
+						<dd>Acceptance notification and registration instructions sent</dd>
+						<dt class="">April 24, 2020 (firm)</dt>
+						<dd>Camera-ready deadline</dd>
+						<dt class="">June 19, 2020</dt>
+						<dd>Workshop</dd>
+					</dl>
+				</aside>
+				<aside class="box" id="submit">
+					<h2 class="footnote">Register</h2>
+					<p>Will be posted shortly. </p>
+				</aside>
+				<aside class="box" id="host">
+					<h2 class="footnote">Host</h2>
+					<p>University of Genova is hosting this workshop.</p>
+				</aside>
+
+				<aside class="box" id="sponsor">
+					<h2 class="footnote">Sponsors</h2>
+
+					<article class="sponsors">
+						<p><a href="index.html#contact">Become a sponsor!</a></p>
+					</aside>
+
+
+					<section>
+						<h3 id="prospects">Security &amp; Privacy on the Blockchain (affiliated with <a href="https://www.ieee-security.org/TC/EuroSP2020/">Euro S&amp;P 2020</a>)</h3>
+
+
+						<p>
+						Cryptocurrencies have emerged as a promising instrument for financial transaction services that provide transparency and integrity in a decentralized fashion.  Their clever combination of blockchains with new incentive mechanisms facilitate publicly verifiable and peer-to-peer transactions without a trusted central party. As a result, they have caught the attention of academic researchers, mainstream media, regulators, entrepreneurs and traditional financial institutions.  As a subject for academic research, the global and self-enforcing nature of blockchains raises interesting questions and challenges across several disciplines including computer science, law, economic and human-computer interaction.
+						Our workshop focuses on a wide-range of topics ranging from the scalability of cryptocurrencies, achieving and evaluating financial privacy in  public blockchains, permissioning access to blockchains to satisfy regulatory requirements, aligning honest behaviour in blockchain ecosystems and smart contracts through the application of game theory and mechanism design, and the critical analysis of various applications of blockchain to other domains.
+						</p>
+
+						<p><strong>If you are promoting your paper on any social media channels be sure to use #IEEESB2020</strong></p>
+
+						<!-- <p><a href="https://ieee-sb2019.cs.princeton.edu">Submission website is online.</a></p> -->
+
+					</section>
+
+				</section>
+
+		<section>
+		    <h3 id="schedule">Schedule</h3>
+		    <p>TBD</p>
+<!-- 		    <ul class="agenda">
+		        <li><p>08:45 - Registration open (Note registration is different than EuroS&amp;P, please get new badge in morning for workshops)</p></li>
+		        <li><p>09:00-09:15 - Introductory Remarks</p></li>
+						<li><p><b>09:15-10:30 - Understanding Ethereum</p></b></li>
+		        <ul>
+		            <li>09:15-09:40 - Eclipsing Ethereum Peers with False Friends <i>by Sebastian Henningsen, Daniel Teunis, Martin Florian and Björn Scheuermann </i></li>
+		            <li>09:40-10:05 - Empirically Analyzing Ethereum’s Gas Mechanism <i>by Renlord Yang, Toby Murray, Paul Rimba and Udaya Parampalli </i></li>
+								<li>10:05-10:30 - Discharged Payment Channels: Quantifying the Lightning Network’s Resilience to Topology-Based Attacks <i>by Elias Rohrer, Julian Malliaris and Florian Tschorsch</i> </li>
+		        </ul>
+		        <li><p><b>10:30-11:00 - Coffee Break</p></b></li>
+		        <li><p><b>11:00-12:15 - Cryptography and the Blockchain</p></b></li>
+		        <ul>
+		            <li>11:00-11:25 - Composing hash functions for mining <i>by Steven Goldfeder and Luca Nizzardo</i></li>
+		            <li>11:25-11:50 - MProve: A Proof of Reserves Protocol for Monero Exchanges <i>by Arijit Dutta and Saravanan Vijayakumaran</i></li>
+		            <li>11:50-12:15 - Towards Automatically Penalizing Multimedia Breaches <i>by Easwar Mangipudi, Krutarth Rao, Jeremy Clark and Aniket Kate</i></li>
+		        </ul>
+		        <li><p><b>12:15-14:00 - Lunch</p></b></li>
+						<li><p><b>14:00-15:40 - Blockchain Security</p></b></li>
+		        <ul>
+		            <li>14:00-14:25 - Resolving the Multiple Withdrawal Attack in ERC20 Tokens <i>by Mohammdreza Rahimian and Jeremy Clark</i> </li>
+		            <li>14:25-14:50 - Temporal Censorship in Presence of Rational Miners <i>by Sebastian Faust, Benjamin Herd and Fredrik Winzer</i></li>
+		            <li>14:50-15:15 - Erasing Data from Blockchain Nodes <i>by Martin Florian, Sophie Beaucamp, Sebastian Henningsen and Björn Scheuermann</i></li>
+								<li>15:15-15:40 - Is Stellar As Secure As You Think? <i>by Minjeong Kim, Yujin Kwon and Yongdae Kim</i></li>
+		        </ul>
+		        <li><p><b>15:40-16:10 - Coffee Break</b></p></li>
+						<li><p><b>16:10-17:00 - Simulations and Frameworks</b></p></li>
+						<ul>
+								<li>16:10-16:35 - Agent-Based Simulations of Blockchain protocols illustrated via Kadena’s Chainweb <i>by Tarun Chitra, Stuart Haber, Monica Quaintance and Will Martino</i></li>
+								<li>16:35-17:00 - TULIP: A Fully Incentive Compatible Blockchain Framework Amortizing Redundant Communication <i>by Oguzhan Ersoy, Zekeriya Erkin and Reginald L. Lagendijk</i> </li>
+						</ul>
+						<li><p><b>17:00 - Final remarks</b></p></li>
+		    </ul> -->
+		</section>
+
+
+				<section>
+					<h3 id="location">Location</h3>
+					<p>Exact details will be posted later. </p>
+				</section>
+
+
+				<section>
+					<h2 id="program">Program</h2>
+					<h3 id="committee">Program Committee</h3>
+					<h4>Program Chairs</h4>
+					<ul>
+						<li>Tim Ruffing (Blockstream)</li>
+						<li>Florian Tschorsch (Technical University of Berlin)</li>
+					</ul>
+
+					<h4>Committee (TBA)</h4>
+<!-- 					<ul>
+						<li>Danny Yuxing Huang -  Princeton University </li>
+						<li>Marie Vasek - University of New Mexico</li>
+						<li>Arthur Gervais - Imperial College London</li>
+						<li>Rainer Böhme  -  Universität Innsbruck</li>
+						<li>Sergi Delgado Segura   - University College London</li>
+						<li>Philipp Jovanovic  -  EPFL</li>
+						<li>Sarah Azouvi  -  University College London</li>
+						<li>Ian Miers   - Cornell Tech</li>
+						<li>Steven Goldfeder  -  Cornell Tech</li>
+						<li>Christian Decker  -  Blockstream</li>
+						<li>Yonatan Sompolinsky   - Hebrew University</li>
+						<li>Jeremy Clark -   Concordia University</li>
+						<li>Matthew Green - Johns Hopkins University</li>
+						<li>Ethan Heilman - Boston University</li>
+						<li>Christian Reitwiessner - Ethereum Foundation</li>
+						<li>Iddo Bentov - Cornell Tech </li>
+						<li>Pedro Moreno Sanchez - TU Wien </li>
+						<li>Florian Tschorsch - Technical University of Berlin </li>
+						<li>Stefanie Roos - TU Delft</li>
+						<li>Sebastian Faust - TU Darmstadt </li>
+						<li>Jason Teutsch - Truebit </li>
+						<li>Christina Garman - Purdue University </li>
+						<li>Roger Wattenhofer - ETH Zurich </li>
+					</ul> -->
+				</section>
+				<section>
+					<h2 id="cfp">Call for Papers</h2>
+
+					<p>
+						The emergence of Bitcoin and decentralized cryptocurrencies, and their fundamental innovation---blockchains---have allowed for entities to trade and interact without a central trusted third party. This has led to a captivating research activity in multiple domains and across different venues, such as top security and distributed systems conferences and journals, as well as a vibrant startup rush on this new technology.
+					</p>
+
+					<p>
+					The third IEEE Security and Privacy on the Blockchain workshop aims to unite interested scholars as well as industrial members from all relevant disciplines who study and work in the space of blockchains. We solicit previously unpublished papers offering novel contributions in both cryptocurrencies and wider blockchain research. Papers may present advances in the theory, design, implementation, analysis, verification, or empirical evaluation and measurement of existing systems. Papers that shed new light on past or informally known results by means of sound formal theory or through empirical analysis are welcome. Suggested contribution topics include (but are not limited to) empirical and theoretical studies of:
+					</p>
+
+					<ul>
+						<li>Anonymity and privacy issues and measures to enhance them</li>
+						<li>Applications using or built on top of blockchains</li>
+						<li>Atomic Swapping</li>
+						<li>Big Data and blockchain technology</li>
+						<li>Bitcoin, Ethereum, Monero, ZCash protocol, other coins and extensions (cryptography, scripting/smart contract language etc.)</li>
+						<li>Case studies (e.g., of adoption, attacks, forks, scams etc.)
+							<li>Censorship</li>
+							<li>Consensus protocols for blockchains</li>
+							<li>Cryptocurrency adoption and economic impact</li>
+							<li>Cryptocurrency adoption and transition dynamics</li>
+							<li>Decentralized Applications (Exchanges, Mining Pools, Trading Platforms)</li>
+							<li>Adoption of blockchains in developing countries</li>
+							<li>Economic and monetary aspects</li>
+							<li>Economics and game theory of mining</li>
+							<li>Forensics and monitoring</li>
+							<li>Formal verification of Blockchain protocols and Smart Contracts</li>
+							<li>Fraud detection and financial crime prevention</li>
+							<li>Governance</li>
+							<li>Identity, Identification and trust in blockchain systems</li>
+							<li>Implications for existing business models</li>
+							<li>Interfacing fiat and cryptocurrencies</li>
+							<li>Intermediates in different industries and their future</li>
+							<li>Internet of things (IoT) and blockchains</li>
+							<li>Legal and policy implications of Smart Contracts</li>
+							<li>Legal status of ICO/TGE</li>
+							<li>Legal, ethical and societal aspects of (decentralized) virtual currencies</li>
+							<li>New applications of the blockchain</li>
+							<li>New business models for permissioned and permissionless blockchains</li>
+							<li>Off-chain payment channels</li>
+							<li>Peer-to-peer broadcast networks/topologies</li>
+							<li>Permissioned (e.g. Hyperledger) and permissionless (e.g. Bitcoin) blockchains</li>
+							<li>Privacy and anonymity-enhancing technologies</li>
+							<li>Proof-of-work, and its alternatives (e.g., proof-of-stake, proof-of-burn, and virtual mining)</li>
+							<li>Real-world measurements and metrics</li>
+							<li>Regulation and law enforcement</li>
+							<li>Relation to other payment systems</li>
+							<li>Scalability and scalable services for blockchain systems</li>
+							<li>Security of blockchains</li>
+							<li>Smart Contract Programming Languages and VMs</li>
+							<li>Transaction graph analysis</li>
+							<li>Usability and user studies</li>
+						</ul>
+
+						<p>This topic list is not meant to be exhaustive. S&amp;B is interested in all aspects of the blockchain research relating to security and privacy. Papers that are considered out of scope may be rejected without full review. We encourage submissions that are "far-reaching" and "risky."</p>
+
+					</section>
+					<section>
+						<h2 id="instructions">Instructions for Paper Submissions</h2>
+
+						All submissions must be original work; the submitter must clearly document any overlap with previously published or simultaneously submitted papers from any of the authors. Failure to point out and explain overlap will be grounds for rejection. Simultaneous submission of the same paper to another venue with proceedings or a journal is not allowed and will be grounds for automatic rejection. Contact the program committee chair if there are questions about this policy.
+
+						<h3>Anonymous Submission</h3>
+
+						Papers must be submitted in a form suitable for anonymous review: no author names or affiliations may appear on the title page, and papers should avoid revealing their identity in the text. When referring to your previous work, do so in the third person, as though it were written by someone else. Only blind the reference itself in the (unusual) case that a third-person reference is infeasible. Contact the program chairs if you have any questions. Papers that are not properly anonymized may be rejected without review.
+
+						<h3>Page Limit and Formatting</h3>
+
+						Short position papers may not exceed 4 pages total and full papers may not exceed 10 pages, including references and appendices. apers must be typeset in LaTeX in A4 format (not "US Letter") using the IEEE conference proceeding template with the appropriate options [<a href='https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Conference-LaTeX-template_7-9-18.zip'>LaTeX template</a>, <a href='http://mirror.ox.ac.uk/sites/ctan.org/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf'>Template instructions</a>, <a href="https://ieeeauthorcenter.ieee.org/create-your-ieee-article/use-authoring-tools-and-ieee-article-templates/ieee-article-templates/">IEEE Template Repository</a>]. Failure to adhere to the page limit and formatting requirements can be grounds for rejection.
+
+						<h3>Submission</h3>
+
+						Submissions must be in Portable Document Format (.pdf). Authors should pay special attention to unusual fonts, images, and figures that might create problems for reviewers. Your document should render correctly in Adobe Reader XI and when printed in black and white.
+
+						<h3>Conference Submission Server</h3>
+
+						<p>Papers must be submitted online and submissions may be updated at any time until the deadline for submissions. The submission site is now closed.</p>
+
+						<h3>Publication and Presentation</h3>
+
+						<p>Authors are responsible for obtaining appropriate publication clearances. One of the authors of the accepted paper is expected to present the paper at the conference. Submissions received after the submission deadline or failing to conform to the submission guidelines risk rejection without review. Accepted publications can be subject to publication in IEEE proceedings. <emph>If authors wish to not publish in IEEE, we will also offer an extended abstract version for publishing</emph>. This option will be available when papers are accepted. For more information, contact the chairs.</p><p>
+						</p></section>
+
+					<footer>
+						<hr>
+
+							<p id="contact">Questions? Contact the chairs Tim Ruffing <a href="mailto:%3Ccrypto@timruffing.de%3E">&lt;crypto@timruffing.de&gt;</a>, Florian Tschorsch <a href="mailto:%3Cflorian.tschorsch@tu-berlin.de%3E">&lt;florian.tschorsch@tu-berlin.de&gt;</a></p>
+						</footer>
+					</body></html>
