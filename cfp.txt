@@ -1,0 +1,95 @@
+
+==============================================================================
+                               Call for Papers
+ The 4th IEEE Security and Privacy on the Blockchain Workshop (IEEE S&B 2020)
+                        affiliated with EuroS&P 2020
+==============================================================================
+
+June 19, 2020 in Genova, Italy
+(post-conference workshops)
+https://ieeesb.org
+
+The fourth IEEE Security and Privacy on the Blockchain (S&B) workshop aims to
+unite interested scholars as well as industrial members from all relevant
+disciplines who study and work in the space of blockchains. We solicit
+previously unpublished papers offering novel contributions in both
+cryptocurrencies and wider blockchain research. Papers may present advances in
+the theory, design, implementation, analysis, verification, or empirical
+evaluation and measurement of existing systems. Papers that shed new light on
+past or informally known results by means of sound formal theory or through
+empirical analysis are welcome. Suggested contribution topics include (but are
+not limited to) empirical and theoretical studies of:
+
+ * Anonymity and privacy issues and measures to enhance them
+ * Applications using or built on top of blockchains
+ * Atomic Swapping
+ * Big Data and blockchain technology
+ * Bitcoin, Ethereum, Monero, ZCash protocol, other coins and extensions
+   (cryptography, scripting/smart contract language etc.)
+ * Case studies (e.g., of adoption, attacks, forks, scams etc.)
+ * Censorship
+ * Consensus protocols for blockchains
+ * Cryptocurrency adoption and economic impact
+ * Cryptocurrency adoption and transition dynamics
+ * Decentralized Applications (Exchanges, Mining Pools, Trading Platforms)
+ * Adoption of blockchains in developing countries
+ * Economic and monetary aspects
+ * Economics and game theory of mining
+ * Forensics and monitoring
+ * Formal verification of Blockchain protocols and Smart Contracts
+ * Fraud detection and financial crime prevention
+ * Governance
+ * Identity, Identification and trust in blockchain systems
+ * Implications for existing business models
+ * Interfacing fiat and cryptocurrencies
+ * Intermediates in different industries and their future
+ * Internet of things (IoT) and blockchains
+ * Legal and policy implications of Smart Contracts
+ * Legal status of ICO/TGE
+ * Legal, ethical and societal aspects of (decentralized) virtual currencies
+ * New applications of the blockchain
+ * New business models for permissioned and permissionless blockchains
+ * Off-chain payment channels
+ * Peer-to-peer broadcast networks/topologies
+ * Permissioned (e.g. Hyperledger) and permissionless (e.g. Bitcoin)
+   blockchains
+ * Privacy and anonymity-enhancing technologies
+ * Proof-of-work, and its alternatives (e.g., proof-of-stake, proof-of-burn,
+   and virtual mining)
+ * Real-world measurements and metrics
+ * Regulation and law enforcement
+ * Relation to other payment systems
+ * Scalability and scalable services for blockchain systems
+ * Security of blockchains
+ * Smart Contract Programming Languages and VMs
+ * Transaction graph analysis
+ * Usability and user studies
+
+This topic list is not meant to be exhaustive. S&B is interested in all
+aspects of the blockchain research relating to security and privacy. Papers
+that are considered out of scope may be rejected without full review. We
+encourage submissions that are "far-reaching" and "risky."
+
+
+## Paper Submission
+
+Submissions must not substantially overlap with works that have been published
+or that are simultaneously submitted to a journal or a conference with
+proceedings. Submissions should follow the IEEE Conference Proceedings Format.
+Short position papers may not exceed 4 pages total and full papers may not
+exceed 10 pages, including references and appendices.
+
+All submissions will be reviewed double-blind, and as such should not contain
+author names, must be anonymous with no acknowledgments, affiliations, or
+obvious references.
+
+Direct your questions to Program Chairs:
+ * Tim Ruffing <crypto@timruffing.de>
+ * Florian Tschorsch <florian.tschorsch@tu-berlin.de>
+
+
+## Important Dates
+
+Submission Deadline:     TBA 23:59 AoE (no extension)
+Acceptance notification: TBA
+Camera-ready deadline:   April 22, 2020 (firm)
