@@ -7,6 +7,7 @@
 
 June 19, 2020 in Genova, Italy
 (post-conference workshops)
+
 https://ieeesb.org
 
 The fourth IEEE Security and Privacy on the Blockchain (S&B) workshop aims to
@@ -24,7 +25,7 @@ not limited to) empirical and theoretical studies of:
  * Applications using or built on top of blockchains
  * Atomic Swapping
  * Big Data and blockchain technology
- * Bitcoin, Ethereum, Monero, ZCash protocol, other coins and extensions
+ * Bitcoin, Ethereum, Monero, Zcash protocol, other coins and extensions
    (cryptography, scripting/smart contract language etc.)
  * Case studies (e.g., of adoption, attacks, forks, scams etc.)
  * Censorship
@@ -75,7 +76,7 @@ encourage submissions that are "far-reaching" and "risky."
 
 Submissions must not substantially overlap with works that have been published
 or that are simultaneously submitted to a journal or a conference with
-proceedings. Submissions should follow the IEEE Conference Proceedings Format.
+proceedings. Submissions should use the LaTeX template provided on the website.
 Short position papers may not exceed 4 pages total and full papers may not
 exceed 10 pages, including references and appendices.
 
@@ -83,7 +84,7 @@ All submissions will be reviewed double-blind, and as such should not contain
 author names, must be anonymous with no acknowledgments, affiliations, or
 obvious references.
 
-Direct your questions to Program Chairs:
+Direct your questions to the Program Chairs:
  * Tim Ruffing <crypto@timruffing.de>
  * Florian Tschorsch <florian.tschorsch@tu-berlin.de>
 
