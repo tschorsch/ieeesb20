@@ -71,6 +71,19 @@ aspects of the blockchain research relating to security and privacy. Papers
 that are considered out of scope may be rejected without full review. We
 encourage submissions that are "far-reaching" and "risky."
 
+## Systemization of Knowledge (SoK)
+
+We solicit systematization of knowledge (SoK) papers that evaluate,
+systematize, and contextualize existing knowledge, as such papers can provide
+a high value to our community. Suitable papers are those that provide an
+important new viewpoint on an established, major research area, support or
+challenge long-held beliefs in such an area with compelling evidence, or present
+present a convincing, comprehensive new taxonomy of such an area. Survey papers
+without such insights are not appropriate. Submissions will be reviewed by the
+full PC and held to the same standards as other submissions, except instead of
+emphasizing novel research contributions the emphasis will be on value to the
+community. Accepted papers will be presented at the workshop and can be
+published in the proceedings like other submissions.
 
 ## Paper Submission
 
