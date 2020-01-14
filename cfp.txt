@@ -11,9 +11,9 @@ June 19, 2020 in Genova, Italy
 https://ieeesb.org
 
 The fourth IEEE Security and Privacy on the Blockchain (S&B) workshop aims to
-unite interested scholars as well as industrial members from all relevant
-disciplines who study and work in the space of blockchains. We solicit
-previously unpublished papers offering novel contributions in both
+unite interested scholars as well as industrial members and practitioners
+from all relevant disciplines who study and work in the space of blockchains.
+We solicit previously unpublished papers offering novel contributions in both
 cryptocurrencies and wider blockchain research. Papers may present advances in
 the theory, design, implementation, analysis, verification, or empirical
 evaluation and measurement of existing systems. Papers that shed new light on
