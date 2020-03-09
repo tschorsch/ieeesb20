@@ -15,7 +15,7 @@
 					.graphic img {width: 100%; position: absolute; bottom: 0; left: 0; height: 100%}
 					/* If you rather clip than squeeze the image, remove 'height: 100%' */
 					.box {float: right; border: 1px solid #CCC; border-radius: 0.6em; color: #666;
-					box-shadow: 0.2em 0.4em 0.5em #888; padding: 0.3em; text-align: center;
+					box-shadow: 0.2em 0.4em 0.5em #888; padding: 1em; text-align: center;
 					font-size: smaller; margin: 0 0 1em 0.6em; width: 19em; clear: right}
 					.box h2 {font-size: 120%}
 					footer {clear: both; margin: 1em 0; font-size: smaller; color: #555}
@@ -77,12 +77,12 @@
 					text-decoration: none;
 					}
 
-					h2.footnote:before {
+/*					h2.footnote:before {
 					content: counter(footnote_counter);
 					font-size: 0.9em;
 					margin-left: -3em;
 					margin-right: 1em;
-					}
+					}*/
 
 					a.footnote-ref:after {
 					content: counter(footnote-ref_counter);
@@ -125,16 +125,15 @@
 					}
 
 					#notification {
-					border: 1px solid #CCC;
-					border-radius: 0.6em;
-					color: #666;
-					background-color: yellow;
-					box-shadow: 0.2em 0.4em 0.5em #888;
-					padding: 0.3em;
+					color: white;
+					border-color: #005A9C;
+					background-color: #005A9C;
 					text-align: center;
 					font-size: smaller;
-					margin: 0 0 1em 0em;
-					font-weight: bold;
+					}
+
+					#notification p{
+						text-align: left;
 					}
 
 					.concluded {
@@ -147,9 +146,9 @@
 					height="48" width="72"></a> </p>-->
 				<h1 id="top">IEEE SECURITY &amp; PRIVACY ON THE BLOCKCHAIN (IEEE S&amp;B 2020)</h1>
 				<h2>An IEEE European Symposium on Security &amp; Privacy Affiliated Workshop</h2>
-				<p>June 16-18, 2020 in Genova, Italy
-					<!-- <p class=graphic><a href="Overview"><img src="lib/imghead2.jpg" alt="Home"></a></p> -->
-				</p>
+				<p><del>June 16-18, 2020 in Genova, Italy</del><br>
+				   <strong>September 7-11, 2020 in Genova, Italy</strong></p>
+
 				<ul class="menu">
 					<li><a href="index.html/#top">Home</a>
 					</li><li><a href="index.html#schedule">Schedule</a>
@@ -157,12 +156,19 @@
 					<li><a href="index.html#cfp">Call for Papers</a> </li>
 					<li><a href="index.html#program">Program Committee</a></li>
 				</ul>
+				<aside class="box" id="notification">
+					<h2 class="footnote">Important News</h2>
+					<p><strong>IEEE Euro S&amp;P 2020 is being rescheduled to September 7-11, 2020 in Genova, Italy.</strong></p>
+
+					<p>IEEE has been monitoring the developing COVID-19. The safety and well-being of Euro S&amp;P 2020 conference participants is our priority. After studying and evaluating the announcements, guidance, and news released by relevant national departments, we are rescheduling the conference dates from June 16-18, 2020 in Genova, Italy to September 7-11, 2020 in Genova, Italy</p>
+					<p>We thank you for your understanding.</p>
+				</aside>
 				<aside class="box" id="dates">
 					<h2 class="footnote">Important Dates</h2>
 					<dl>
 						<dt class="">
-								March 5, 2020 (no extensions)<br>
-								23:59 (UTC-12, AoE)
+								<del>March 5, 2020 (no extensions)<br>
+								23:59 (UTC-12, AoE)</del>
 						</dt>
 						<dd>
 								Deadline for paper submission<br>
